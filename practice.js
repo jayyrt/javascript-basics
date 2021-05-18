@@ -4,11 +4,15 @@
 
 //Code here
 
+var myName = 'Kenia';
+
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
 //Code here
+
+var myAge = 28;
 
 //////////////////PROBLEM 3////////////////////
 
@@ -16,17 +20,23 @@
 
 //Code here
 
+var loveCode = true;
+
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
 //Code here
 
+var greatestFear;
+
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
+
+var devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -37,6 +47,12 @@
 
 //Code here
 
+function greeting(name){
+  var name = 'Kenia',
+return 'Hello, ' + name
+}
+
+console.log(greeting)
 //////////////////PROBLEM 7////////////////////
 
 //Write a function expression called newGreeting.
@@ -44,12 +60,20 @@
 
 //Code Here
 
+function newGreeting(name){
+  var name = 'Adrian',
+  return 'Hey there, ' + name + '!'
+}
+
+console.log(newGreeting)
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+
+var groceries = ['apples', 'milk', 'eggs', 'bread']
 
 //////////////////PROBLEM 9////////////////////
 
@@ -60,10 +84,19 @@
 
 //Code Here
 
+var dog = {
+  name = 'Terrible',
+  color = 'gray',
+  age = 6,
+  goodBoy = true
+}
+
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+
+var devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
@@ -76,6 +109,10 @@
 
 // Code here
 
+function nameCheck(){
+  if 
+}
+
 //////////////////PROBLEM 11////////////////////
 
 // Create a function called add that takes in two parameters
@@ -84,10 +121,16 @@
 
 //Code Here
 
+function add(num1, num2){
+  return num1 + num2
+}
+
 //Now invoke add, passing in the numbers 3 and 4
 //storing the result in the variable mathSum.
 
 //Code Here
+
+
 
 //////////////////PROBLEM 12////////////////////
 
