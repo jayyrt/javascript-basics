@@ -139,7 +139,7 @@ function add(num1, num2){
 
 //Code Here
 
-
+kj
 
 //////////////////PROBLEM 12////////////////////
 
@@ -190,26 +190,57 @@ function pond() {
 //This array should contain the variable names (as strings) accessible in the global scope.
 let globalScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 
+let duck = "cute";
+let sailorDuck = "nautical";
+let rubberDuck = "squeaky";
+let realDuck = "fluffy";
+
 //This array should contain the variable names (as strings) accessible in the bathroom function.
 let bathroomScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+
+function bathroom() {
+  let duck = "cute";
+  let sailorDuck = "nautical";
+  let rubberDuck = "squeaky";
+  let realDuck = "fluffy";
+}
 
 //This array should contain the variable names (as strings) accessible in the bathtub function.
 let bathtubScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
 
+function bathtub() {
+  let duck = "cute";
+  let sailorDuck = "nautical";
+  let rubberDuck = "squeaky";
+  let realDuck = "fluffy";
+}
+
 //This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ["duck", "sailorDuck", "rubberDuck", "realDuck"];
+
+function pond() {
+  let duck = "cute";
+  let sailorDuck = "nautical";
+  let rubberDuck = "squeaky";
+  let realDuck = "fluffy";
+}
 
 //////////////////PROBLEM 14////////////////////
 
 //Create a variable called age with your age assigned to you
 
 // Code Here
+var age = 28;
 
 // FLASH FORWARD TO NEXT YEAR
-// reassign the value of age to be one greater than it was, because, we all get older
+ // reassign the value of age to be one greater than it was, because, we all get older
 
 // Code Here
+
+const age = 28 + 1;
 
 // Good news! We can live forever. Set your age to 999
 
 // Code Here
+
+let age = 999;
