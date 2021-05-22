@@ -100,19 +100,28 @@ var devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
-//Write a function called nameCheck that takes in a name parameter.
+//Write a function called nameCheck that takes in a name parameter.  
 //nameCheck should check if the name equals 'Steven'. If it does,
 // return 'What is up Steven?'
 //If the name parameter is Bryan, return 'Hey Bryan!'
 // If the name parameter is anything else, return 'Cool name, NAMEPARAM'
 // with NAMEPARAM being the name parameter being passed in (not literally NAMEPARAM)
 
+
 // Code here
 
-function nameCheck(){
-  if 
+var nameParam
+function nameCheck(name) {
+  if (name === 'Steven') {
+  document.write('What is up Steven?');
+} else if (name === 'Bryan') {
+  document.write('Hey Bryan!');
+} else (name === nameParam); {
+  document.write('Cool name, ' + nameParam);
+}
 }
 
+console.log(nameCheck)
 //////////////////PROBLEM 11////////////////////
 
 // Create a function called add that takes in two parameters
@@ -142,6 +151,20 @@ function add(num1, num2){
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
+
+function faveColorFinder(color) {
+  if (color === 'red') {
+    document.write('red is a great color');
+  } else if (color === 'green') {
+    document.write('green is a solid favorite color');
+  } else if (color === 'black') {
+    document.write('so trendy');
+  } else {
+    document.write('you need to evaluate your favorite color choice')
+  }
+}
+
+console.log(favColorFinder)
 
 //////////////////PROBLEM 13////////////////////
 
