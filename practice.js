@@ -4,11 +4,15 @@
 
 //Code here
 
+let myName = "Kenia";
+
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
 //Code here
+
+let myAge = 28;
 
 //////////////////PROBLEM 3////////////////////
 
@@ -16,17 +20,23 @@
 
 //Code here
 
+let lovesCode = true;
+
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
 //Code here
 
+let greatestFear = undefined;
+
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
+
+let devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -37,6 +47,10 @@
 
 //Code here
 
+function greeting(name){
+  return "Hello, " + name;
+}
+
 //////////////////PROBLEM 7////////////////////
 
 //Write a function expression called newGreeting.
@@ -44,12 +58,18 @@
 
 //Code Here
 
+let newGreeting = function(name){
+  return "Hello, " + name;
+}
+
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+
+let groceries = ["apples", "milk", "eggs", "bread"];
 
 //////////////////PROBLEM 9////////////////////
 
@@ -60,10 +80,19 @@
 
 //Code Here
 
+const dog = {
+  name: 'Fluffy',
+  color: 'Gray',
+  age: 2,
+  goodBoy: true
+}
+
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
+
+devMountainClassPet = dog.name;
 
 //////////////////PROBLEM 10////////////////////
 
